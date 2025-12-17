@@ -1,5 +1,4 @@
-# 🚀 KYHABER - Kurumsal Haber Portalı
-
+# 🚀 Musocial - Sosyal Medya Sitesi
 <div align="center">
 
 ![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white)
@@ -39,8 +38,6 @@ Bu proje **Bartın(Bartın MYO) Üniversitesi - İnternet Tabanlı Programlama (
 
 
 
-
-
 ---
 
 ## 📦 Kurulum
@@ -70,11 +67,7 @@ Kullanıcı: admin1
 ---
 
 
-### 📊 Proje İstatistikleri
 
-![GitHub last commit](https://img.shields.io/github/last-commit/BPRFINAL/Bpr201Internettabanliprogramlama?style=flat-square)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/BPRFINAL/Bpr201Internettabanliprogramlama?style=flat-square)
-![GitHub code size](https://img.shields.io/github/languages/code-size/BPRFINAL/Bpr201Internettabanliprogramlama?style=flat-square)
 
 **Bartın Üniversitesi (BARTIN MYO) - İnternet Tabanlı Programlama (BPR201)**
 
