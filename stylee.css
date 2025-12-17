@@ -1,0 +1,258 @@
+/* Genel Arka Plan ve Yazı Ayarları */
+body {
+  background: linear-gradient(135deg, #e8f0ff 0%, #fdfdfd 100%);
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+/* Sol Menü */
+nav {
+  background: linear-gradient(180deg, #ffffff 0%, #f1f6ff 100%);
+  border-right: 1px solid #dce3f1;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+}
+
+nav .nav-link {
+  color: #333;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+nav .nav-link i {
+  color: #007bff;
+  margin-right: 8px;
+}
+
+nav .nav-link:hover {
+  background: #007bff;
+  color: #fff;
+  transform: translateX(3px);
+}
+
+nav .nav-link:hover i {
+  color: #fff;
+}
+
+/* Ana Gövde (Main) */
+main {
+  background: transparent;
+}
+
+/* Gönderi Kartları */
+.card {
+  background: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+
+/* Gönderi Alanı */
+.card-body {
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+/* Gönderi oluşturma kutusu */
+textarea.form-control {
+  border-radius: 10px;
+  border: 1px solid #d0d7e6;
+  background: #f8faff;
+  transition: all 0.2s ease;
+}
+
+textarea.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0,123,255,0.3);
+  background: #fff;
+}
+
+/* Butonlar */
+.btn-primary {
+  background: linear-gradient(90deg, #007bff, #00a8ff);
+  border: none;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #006ae0, #0095e0);
+  transform: scale(1.05);
+}
+
+.btn-outline-danger,
+.btn-outline-secondary,
+.btn-outline-primary {
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff4b5c;
+  color: #fff;
+  border-color: #ff4b5c;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Sağ Panel */
+aside {
+  background: linear-gradient(180deg, #ffffff 0%, #f1f5ff 100%);
+  border-left: 1px solid #dce3f1;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.05);
+}
+
+aside h5 {
+  color: #007bff;
+  font-weight: 600;
+}
+
+aside .list-group-item {
+  background: transparent;
+  color: #333;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+aside .list-group-item:hover {
+  color: #007bff;
+  background: rgba(0, 123, 255, 0.08);
+  border-radius: 8px;
+}
+
+/* Profil Resimleri */
+img.rounded-circle {
+  border: 2px solid #007bff20;
+}
+
+/* Mobil uyum */
+@media (max-width: 768px) {
+  body {
+    background: #ffffff;
+  }
+}
+/* 🌙 DARK MODE GLOBAL */
+body.dark {
+    background-color: #0f1419 !important;
+    color: #e7e9ea !important;
+}
+
+body.dark .bg-white {
+    background-color: #16181c !important;
+}
+
+body.dark .border-end,
+body.dark .border-start,
+body.dark .border-bottom {
+    border-color: #2f3336 !important;
+}
+
+body.dark p,
+body.dark span,
+body.dark small,
+body.dark label,
+body.dark strong,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+    color: #e7e9ea !important;
+}
+
+body.dark .text-muted {
+    color: #8b98a5 !important;
+}
+
+body.dark .nav-link {
+    color: #e7e9ea !important;
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select {
+    background-color: #0f1419 !important;
+    color: #e7e9ea !important;
+    border-color: #2f3336 !important;
+}
+
+body.dark .btn-outline-primary,
+body.dark .btn-outline-secondary,
+body.dark .btn-outline-warning {
+    color: #e7e9ea !important;
+    border-color: #2f3336 !important;
+}
+/* ===============================
+   💣 SIDEBAR & RIGHT PANEL FIX
+   =============================== */
+
+/* SOL MENÜ (SIDEBAR) */
+body.dark .sidebar,
+body.dark .left-sidebar,
+body.dark .menu,
+body.dark nav,
+body.dark .col-md-3,
+body.dark .col-lg-3 {
+    background-color: #0f1419 !important;
+}
+
+/* SOL MENÜ İÇİ */
+body.dark .sidebar *,
+body.dark .left-sidebar *,
+body.dark nav * {
+    color: #ffffff !important;
+}
+
+/* SAĞ PANEL */
+body.dark .right-sidebar,
+body.dark .right-panel,
+body.dark .trends,
+body.dark aside,
+body.dark .col-md-4,
+body.dark .col-lg-4 {
+    background-color: #0f1419 !important;
+}
+
+/* SAĞ PANEL KUTULAR */
+body.dark aside .card,
+body.dark .trends .card,
+body.dark .trend-box {
+    background-color: #16181c !important;
+    color: #ffffff !important;
+    border-color: #2f3336 !important;
+}
+
+/* COL BOOTSTRAP ZORLAMA */
+body.dark [class*="col-"] {
+    background-color: #0f1419 !important;
+}
+
+/* SOL MENÜ AKTİF */
+body.dark .nav-link.active {
+    background-color: #1d9bf0 !important;
+    color: #ffffff !important;
+    border-radius: 10px;
+}
+
+/* AYIRICI ÇİZGİLER */
+body.dark hr {
+    border-color: #2f3336 !important;
+}
