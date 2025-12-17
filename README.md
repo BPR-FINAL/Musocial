@@ -8,7 +8,7 @@
 ![Security](https://img.shields.io/badge/Security-A+-00C851?style=for-the-badge&logo=security&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-**Gelişmiş Güvenlik Önlemleri ile Donatılmış Modern Haber Yönetim Sistemi**
+**Güvenlik Önlemleri Alınmış Sosyal Medya Sitesi**
 
 [Özellikler](#-özellikler) • [Kurulum](#-kurulum) • [Güvenlik](#-güvenlik-özellikleri) • [Kullanım](#-kullanım)
 
